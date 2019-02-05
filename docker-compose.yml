@@ -1,0 +1,9 @@
+version: '3'
+services:
+  db:
+    image: postgres:alpine
+    restart: always
+    environment:
+      POSTGRES_USER: todo-switch
+    ports:
+      - 5432:5432
