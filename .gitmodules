@@ -1,0 +1,3 @@
+[submodule "todo-switch"]
+	path = todo-switch
+	url = git@github.com:sasaujp/todo-switch.git
